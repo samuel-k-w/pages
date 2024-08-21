@@ -20,3 +20,4 @@
 
 # urls
 1. add **urls.py** file inside pages app
+2. add about page view as above and register to urls
