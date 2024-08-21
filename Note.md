@@ -12,6 +12,7 @@
 1. inside pages app templates/pages/home.html
 2. OR a project level template folder at root folder create templates/pages/home.html
 3. update settings.py add **TEMPLATES = ['DIRS' : [BASE_DIR / 'templates']],**
+4. templates useful when came to extending
 
 # class based views
 1. inside views **from django.views.generics import TemplateView** it have all logic needed
@@ -21,3 +22,5 @@
 # urls
 1. add **urls.py** file inside pages app
 2. add about page view as above and register to urls
+
+- add header.html 
